@@ -263,7 +263,7 @@ router.get('/remove', (req, res, next) => {
 
     if (!apikey) return res.json(loghandler.notparam)
     if (!(status && apikeyInput && email && nomorhp && name && age && country && exp)) return res.json(loghandler.notAddApiKey)
-    if (apikey != 'zahirgans') return res.json(loghandler.invalidKey)
+    if (apikey != 'agungx') return res.json(loghandler.invalidKey)
 
     try {
         zahirr.remove({
